@@ -1,0 +1,19 @@
+{
+  "clients": [
+    {
+      "login": "ewokasi",
+      "password": "qwerty",
+      "cart": []
+    },
+    {
+      "login": "kostya",
+      "password": 2411,
+      "cart": []
+    },
+    {
+      "login": "nikita",
+      "password": "1234",
+      "cart": []
+    }
+  ]
+}
