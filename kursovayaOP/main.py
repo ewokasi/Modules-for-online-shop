@@ -8,6 +8,7 @@ decide = int(input())
 if decide == 1:
     login = input("Enter login")
     psw = input("Enter password")
+
     client_hub.registrate(login, psw)
     user = {
         "login": login,

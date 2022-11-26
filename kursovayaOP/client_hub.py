@@ -9,7 +9,7 @@ def registrate(login, password):
 
     new_user = {
         "login": str(login),
-        "password": str(password),
+        "password": str(hash(password)),
         "cart": []
     }
 
@@ -57,6 +57,7 @@ def sign_in():
     if registred:
         print(f"Enter the password for {login}: ")
         password = input()
+        password = hash(password)
         for client in clients:
             if login == client["login"]:
                 if password == client["password"]:
